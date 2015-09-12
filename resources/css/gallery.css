@@ -104,6 +104,9 @@ ul.gallery-image-list {
 	-webkit-flex-direction: row;
 	-moz-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-align-content: flex-start;
+	-moz-flex-align-content: flex-start;
+	align-content: flex-start;
 	-webkit-flex-wrap: wrap;
 	-moz-flex-wrap: wrap;
 	flex-wrap: wrap;
@@ -171,7 +174,6 @@ ul.gallery-image-list li {
 }
 
 .gallery-image-container img {
-	max-width: 400px;
 	width: 100%;
 	max-height: 400px;
 	transition: .22s all ease-out;
